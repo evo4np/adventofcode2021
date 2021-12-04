@@ -23,5 +23,5 @@ if __name__ == '__main__':
     with open('day_one.txt') as f:
         data = [int(line.strip()) for line in f]
 
-    # problem_one(data)
+    problem_one(data)
     problem_two(data)
